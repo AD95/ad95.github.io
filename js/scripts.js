@@ -9,6 +9,21 @@
     Description: This file contains all the scripts associated with the single-page
     portfolio website.
 */
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+function onLoad() {
+    if(getParameterByName('submitted')) {
+        document.getElementById("btn-thanks").style.display = "inline-block";
+    }
+}
 
 (function($) {
 
@@ -27,7 +42,7 @@
 
         $('html, body').animate({
             scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
+        }, 500);
 
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
