@@ -108,7 +108,8 @@ header a:focus {
 }
 
 header.active {
-    display: block
+    display: flex;
+    background: #a52a2ad1;
 }
 
 header.sticky {
@@ -143,7 +144,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #3498db;
 }
 
 #mobile-menu-close span {
@@ -283,11 +284,11 @@ footer {
 }
 
 .background-alt {
-    background: #f2f2f5
+    background: #f2f2f5;
 }
 
 #experience ul {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 300;
     }
 
@@ -415,7 +416,7 @@ footer {
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
-    max-width: 1075px;
+    max-width: 1160px;
 }
 
 #experience-timeline:before {
@@ -423,7 +424,7 @@ footer {
     content: '';
     top: 0;
     bottom: 0;
-    left: 303px;
+    left: 330px;
     right: auto;
     height: 100%;
     width: 3px;
@@ -439,11 +440,11 @@ footer {
     background: #3498db;
     background: linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
     top: 100%;
-    left: 303px
+    left: 330px;
 }
 
 .vtimeline-content {
-    margin-left: 350px;
+    margin-left: 370px;
     background: #fff;
     border: 1px solid #e6e6e6;
     padding: 15px;
@@ -452,18 +453,18 @@ footer {
 }
 
 .vtimeline-content h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 300;
     color: #374054;
     display: inline-block;
-    margin: 0
+    margin: 0;
 }
 
 .vtimeline-content h4 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 300;
     color: #7e8890;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;
 }
 
 .vtimeline-content p {
@@ -488,7 +489,8 @@ footer {
     border-radius: 50%;
     float: left;
     z-index: 99;
-    margin-left: 280px;
+    margin-left: 307px;
+    top: 15px;
 }
 
 .vtimeline-icon i {
@@ -498,11 +500,11 @@ footer {
 }
 
 .vtimeline-date {
-    width: 277px;
+    width: 300px;
     text-align: right;
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 25px;
     font-weight: 300;
     color: #374054;
 }
@@ -519,11 +521,11 @@ footer {
 }
 
 .education-block {
-    max-width: 700px;
+    max-width: 735px;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
-    text-align: left
+    text-align: left;
 }
 
 .education-block h3 {
@@ -655,9 +657,10 @@ footer {
 }
 
 #contact {
-    padding: 50px 15px;
+    padding: 48.5px 15px;
     background: #3498db;
     text-align: center;
+    width: inherit;
 }
 
 #contact h2 {
@@ -779,7 +782,7 @@ footer {
         width: auto;
         text-align: left;
         position: relative;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         display: block;
         margin-left: 70px
     }
