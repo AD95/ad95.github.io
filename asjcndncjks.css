@@ -1,0 +1,99 @@
+.main {
+    padding: 50px;
+    background: url(Cutlery.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 500px;
+    background-position-y: -40px;
+    background-position-x: 76px;
+}
+
+.main p {
+    background: white;
+    width: max-content;
+    color: black;
+    padding: 23px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.header h2 {
+    font-size: 50px;
+    color: #0639C1;
+}
+
+.main h2 {
+     font-size: 70px;
+     color: #0639C1;
+ }
+
+ .desc h2 {
+     font-size: 40px;
+     color: #0639C1;
+     margin-left: 395px;
+ }
+
+.selected {
+    color: #0639C1;
+}
+
+body {
+    padding-right: 60px;
+    padding-left: 72px;
+    padding-top: 30px;
+    font-family: 'Rozha One', serif;
+}
+
+.header {
+    margin-top: -50px;
+    }
+
+.header h2{
+    margin-bottom: 25px;
+}
+.header hr {
+    border-bottom: none;
+    position: relative;
+    left: -50%;
+    right: -50%;
+    width: 10000px;
+}
+.desc {
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.menu {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-family: Lato;
+}
+
+.menu span {
+    margin-right: 20px;
+}
+
+.tile {
+    display: block ruby;
+    width: min-content;
+}
+
+.tile div{
+    width: min-content;
+    margin-right: 37px;
+}
+
+.tile p{
+    text-align: center;
+    color: #0639C1;
+    font-size: 28px;
+    margin-top: 52px;
+    margin-bottom: 86px;
+    padding-right: 11px;
+}
+
+.tile img {
+    background-color: #A4E1E9;
+    padding-right: 25px;
+}
