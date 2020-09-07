@@ -15,6 +15,7 @@
     color: black;
     font-family: sans-serif;
     font-size: 21px;
+    text-shadow: 0 0 black;
     padding-right: 23px;
     padding-left: 23px;
     padding-top: 18px;
@@ -27,11 +28,11 @@
 }
 
 .main h2 {
-    font-size: 70px;
+    font-size: 69px;
     color: #0639C1;
     margin-top: 10px;
-    line-height: 93px;
-    margin-bottom: 63px;
+    line-height: 90px;
+    margin-bottom: 66px;
 }
 
 .desc h2 {
@@ -42,6 +43,7 @@
 
 .selected {
     color: #0639C1;
+    text-shadow: 0 0 #0639C1;
 }
 
 body {
@@ -68,15 +70,16 @@ hr {
 }
 
 .desc {
-    padding-bottom: 20px;
+    padding-bottom: 11px;
     padding-top: 25px;
 }
 
 .menu {
     padding-top: 20px;
-    padding-bottom: 48px;
+    padding-bottom: 49px;
     font-size: 14.5px;
-    font-family: Arimo;
+    font-family: sans-serif;
+    text-shadow: 0 0 black;
 }
 
 .menu span {
@@ -95,10 +98,14 @@ hr {
 .tile p {
     text-align: center;
     color: #0639C1;
-    font-size: 30px;
-    margin-top: 52px;
-    margin-bottom: 86px;
+    font-size: 29px;
+    margin-top: 55px;
+    margin-bottom: 104px;
     padding-right: 11px;
+}
+
+.bottom p {
+    margin-bottom: 65px;
 }
 
 .tile img {
