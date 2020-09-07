@@ -1,20 +1,24 @@
 .main {
-    padding: 50px;
+    padding: 52px 0 0 61px;
     background: url(Cutlery.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 579px;
-    background-position-y: -64px;
-    background-position-x: 76px;
+    height: 628px;
+    background-position-y: -77px;
+    background-position-x: 81px;
+    margin-right: -8px;
 }
 
 .main p {
     background: white;
     width: max-content;
     color: black;
-    padding: 23px;
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 21px;
+    padding-right: 23px;
+    padding-left: 23px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .header h2 {
@@ -26,7 +30,8 @@
     font-size: 70px;
     color: #0639C1;
     margin-top: 10px;
-    line-height: 98px;
+    line-height: 93px;
+    margin-bottom: 63px;
 }
 
 .desc h2 {
@@ -40,26 +45,26 @@
 }
 
 body {
-    padding-right: 60px;
     padding-left: 72px;
     padding-top: 30px;
     font-family: 'Rozha One', serif;
-    display: inline-block;
+    white-space: nowrap;
 }
 
 .header {
     margin-top: -50px;
+    margin-bottom: 13px;
 }
 
 .header h2 {
-    margin-bottom: 17px;
+    margin-bottom: 5px;
 }
 
-.header hr {
+hr {
     border-bottom: none;
-    position: absolute;
-    left: -50%;
-    right: 0%;
+    margin-left: -80px;
+    margin-right: -8px;
+    border-color: black;
 }
 
 .desc {
@@ -68,21 +73,18 @@ body {
 }
 
 .menu {
-    padding-top: 32px;
-    padding-bottom: 50px;
-    font-size: 16px;
-    font-family: sans-serif;
-    font-stretch: semi-condensed;
-    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 48px;
+    font-size: 14.5px;
+    font-family: Arimo;
 }
 
 .menu span {
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 .tile {
-    width: min-content;
-    display: -webkit-box;
+    display: inline-block;
 }
 
 .tile div {
