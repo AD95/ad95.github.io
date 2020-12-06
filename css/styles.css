@@ -607,7 +607,8 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
-    padding: 15px
+    padding: 15px;
+	width: -webkit-fill-available;
 }
 
 .project-info h3 {
@@ -633,6 +634,7 @@ footer {
 .project-image img{
     height: 300px;
     width: 300px;
+    padding: 50px;
 }
 
 #more-projects {
